@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICSETEP Project | AI-Driven Movement Disorder Detection</title>
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Global Navigation -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo-wrapper project-logo">
+                <img src="rulogo.png" alt="Project Logo">
+            </div>
+
+            <nav class="main-navigation">
+                <button class="menu-toggle" aria-label="Toggle Navigation">&#9776;</button>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#objectives">Objectives</a></li>
+                    <li><a href="#motivations">Motivations</a></li>
+                    <li><a href="#significance">Significance</a></li> 
+                    <li><a href="#swot">SWOT</a></li> 
+                    <li><a href="#sdg">SDG</a></li>
+                    <li><a href="#methodology">Methodology</a></li> 
+                    <li><a href="#TestData">Test Data</a></li> 
+                    <li><a href="#Notice">Notice</a></li> 
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>s
+            </nav>
+
+            <div class="logo-wrapper university-logo">
+                <img src="download.png">
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero / Stage Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">ICSETEP Research Platform</span>
+            <marquee scrollamount="15"><h1>Welcome to ICSETEP Project</h1></marquee>
+            <p class="hero-subtitle">Innovative Research and Development Project</p>
+            <p class="hero-subtitle">Funded by UGC and ADB</p>
+            <div class="hero-divider"></div>
+            <h2 class="project-title">
+                <i>Proposed Title:</i> Artificial Intelligence–Driven Movement Disorder Detection from Videos and Brain MRI images:A Pilot Study in Bangladesh
+
+            </h2>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section id="overview" class="content-section">
+        <div class="section-header">
+            <h2>Project Overview</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="overview-grid">
+            <div class="overview-text">
+                <p>
+                    The objective of this sub-project is to develop and validate a <strong>multimodal deep learning-based system</strong> for the early detection and severity assessment of <strong>Autism Spectrum Disorder (ASD)</strong> and <strong>Parkinson’s Disease (PD)</strong> in Bangladeshi patients. The proposed system will integrate movement videos and brain MRI data to deliver an <em>affordable, accurate, and clinically reliable</em> diagnostic solution.
+                </p>
+                <p>
+                    By facilitating early diagnosis and timely intervention, the system aims to improve patient outcomes and quality of life. Furthermore, it is designed to be scalable and deployable across hospitals and healthcare facilities throughout Bangladesh, supporting rural and underserved communities where access to specialized services is limited.
+                </p>
+            </div>
+            <div class="visualization-gallery">
+                <div class="visual-card card-asd">
+                    <div class="image-container">
+                        <img src="asd.jpeg" alt="Autism Spectrum Disorder Visualization">
+                    </div>
+                    <div class="card-caption">Autism Spectrum Disorder (ASD)</div>
+                </div>
+                <div class="visual-card card-pd">
+                    <div class="image-container">
+                        <img src="pd.jpg" alt="Parkinson’s Disease Visualization">
+                    </div>
+                    <div class="card-caption">Parkinson’s Disease (PD)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specific Objectives -->
+    <section id="objectives" class="content-section alternate-bg">
+        <div class="section-header">
+            <h2>Specific Objectives</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="objectives-timeline">
+            <div class="timeline-item">
+                <div class="item-number">A</div>
+                <div class="item-body">
+                    <h3>Data Collection & Alignment</h3>
+                    <p>Creation of a subject-aligned multimodal dataset from Bangladeshi patients diagnosed with PD, ASD, and healthy controls. Reflects local demographic and clinical conditions, ensuring hyper-relevance to Bangladesh’s unique healthcare landscape.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="item-number">B</div>
+                <div class="item-body">
+                    <h3>Feature Extraction</h3>
+                    <p>Capturing critical kinematic characteristics including distances and angles between skeletal markers. Introducing advanced computational parameters like <em>Thumb-to-Index Vector Velocity</em> and <em>Acceleration</em> to isolate 40 distinct motor-control markers.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="item-number">C</div>
+                <div class="item-body">
+                    <h3>Model Development</h3>
+                    <p>Leveraging state-of-the-art deep learning models to process sequential spatial-temporal relationships within video frames alongside structural anomalies from complex brain MRI imaging blocks.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="item-number">D</div>
+                <div class="item-body">
+                    <h3>Validation & Clinical Integration</h3>
+                    <p>Rigorous multicenter evaluations prioritizing balanced precision, recall rates, and F1-scores to ensure system resilience against varied equipment manufacturers, processing arrays, and specific scanner models.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="item-number">E</div>
+                <div class="item-body">
+                    <h3>Deployment & Capacity Building</h3>
+                    <p>Engineering responsive native cross-platform desktop and mobile app deployment profiles alongside practical, structured workshops pushing for sustainable clinical assimilation across internal regional networks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Motivations -->
+    <section id="motivations" class="content-section alternate-bg">
+        <div class="section-header">
+            <h2>Project Motivations</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="cards-layout-three">
+            <div class="premium-feature-card">
+                <div class="card-icon-placeholder">01</div>
+                <h3>Healthcare Need & Tech Opportunity</h3>
+                <p>ASD and PD remain heavily underdiagnosed in regional centers due to cost barriers and limited specialist access. Combining streamlined consumer-grade video metrics with critical structural neural telemetry answers this national dilemma cleanly.</p>
+            </div>
+            <div class="premium-feature-card">
+                <div class="card-icon-placeholder">02</div>
+                <h3>Local Relevance & Inclusion</h3>
+                <p>Building intelligence layers natively using demographic groups within the delta helps establish clinical validity. We maintain a strict focus on gender parity, committing to a minimum of 50% female inclusion profiles across all advanced technical roles and research paths.</p>
+            </div>
+            <div class="premium-feature-card">
+                <div class="card-icon-placeholder">03</div>
+                <h3>Long-Term Structural Vision</h3>
+                <p>Our final mission aims past laboratory walls, deploying high-efficiency, edge-ready, scalable diagnostic systems into distant upazila levels, bridging gaps for isolated and underserved populations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Institutional Significance -->
+    <section id="significance" class="content-section">
+        <div class="section-header">
+            <h2>Significance & Institutional Value</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="significance-block-container">
+            <p class="lead-paragraph">
+                The proposed project makes significant contributions to <strong>ICSETEP objectives</strong>, driving advanced data models, fostering cross-disciplinary research integration, and addressing international frameworks.
+            </p>
+            <div class="sdg-mini-list">
+                <div class="sdg-mini-pill"><span class="badge-s">SDG 3</span> Good Health & Well-Being</div>
+                <div class="sdg-mini-pill"><span class="badge-s">SDG 4</span> Quality Education</div>
+                <div class="sdg-mini-pill"><span class="badge-s">SDG 8</span> Decent Work & Growth</div>
+                <div class="sdg-mini-pill"><span class="badge-s">SDG 9</span> Infrastructure & Innovation</div>
+                <div class="sdg-mini-pill"><span class="badge-s">SDG 17</span> Partnerships for Goals</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SWOT Strategic Matrix -->
+    <section id="swot" class="content-section alternate-bg">
+        <div class="section-header">
+            <h2>SWOT Analysis</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="swot-matrix-wrapper">
+            <div class="swot-quadrant quadrant-s">
+                <div class="q-title">Strengths</div>
+                <p>First-of-its-kind multimodal structural biomarker framework optimized natively for local deployment configurations; cost-efficient pipeline architecture designed explicitly around low-resource operational realities.</p>
+            </div>
+            <div class="swot-quadrant quadrant-w">
+                <div class="q-title">Weaknesses</div>
+                <p>Initial training volumes remain limited, which impacts broad generalized output models; high dependencies on quality primary MRI inputs; demands intricate coordination across distinct clinical fields.</p>
+            </div>
+            <div class="swot-quadrant quadrant-o">
+                <div class="q-title">Opportunities</div>
+                <p>Tremendous capacity for widespread domestic institutional inclusion; provides immediate technological training paths for local engineering pipelines; builds domestic health-tech ownership.</p>
+            </div>
+            <div class="swot-quadrant quadrant-t">
+                <div class="q-title">Threats</div>
+                <p>Strict data privacy compliance parameters; extreme regional variances across hospital imaging equipment pools; localized user adoption hesitations in clinical workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SDG Framework Table Matrix -->
+    <section id="sdg" class="content-section">
+        <div class="section-header">
+            <h2>Policy Framework & SDG Alignment</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="responsive-table-outer">
+            <table class="premium-data-table">
+                <thead>
+                    <tr>
+                        <th style="width: 35%;">National / Global Framework Target</th>
+                        <th style="width: 65%;">Sub-Project Alignment & Concrete Deliverables</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>National Health Policy 2011</strong></td>
+                        <td>Accelerates early screening networks and clinical baseline tracking metrics for structural developmental delays.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Smart Bangladesh 2041 & Digital Agenda</strong></td>
+                        <td>Deploys modern intelligence blocks directly into national medical infrastructure to digitize standard workflows.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>National ICT Policy 2018</strong></td>
+                        <td>Protects sovereign diagnostic capacities by building localized diagnostic frameworks rather than relying on external APIs.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>National Science & Tech Policy 2020</strong></td>
+                        <td>Fosters interdisciplinary R&D and deepens university-to-industry collaborative technical models.</td>
+                    </tr>
+                    <tr class="highlighted-row">
+                        <td><strong>UN SDG 3: Good Health & Well-Being</strong></td>
+                        <td>Enables early detection and affordable long-term management models for neurological disorders.</td>
+                    </tr>
+                    <tr class="highlighted-row">
+                        <td><strong>UN SDG 9: Industry, Innovation & Infra</strong></td>
+                        <td>Fosters deep technological engineering capabilities in health-tech within public universities.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Technical Methodology Workflow -->
+    <section id="methodology" class="content-section alternate-bg">
+
+        <div class="section-header">
+            <h2>Technical Approach & Methodology</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="methodology-container">
+            <p class="methodology-intro">
+                Our active methodology uses a multi-tiered pipeline that unifies functional tracking arrays with structural deep learning metrics. This setup extracts feature matrices before routing them into centralized late-fusion transformers.
+            </p>
+            <div class="media-showcase-container">
+                <img src="method.jpg" alt="Research Architecture and Model Pipeline Flowchart" class="premium-showcase-img">
+            </div>
+        </div>
+                <div class="media-showcase-container">
+            <a href="flyer.jpg" target="_blank" title="Click to view full image">
+                <img src="flyer.jpg" alt="Official Project Flyer Document Layout" class="premium-showcase-img">
+            </a>
+        </div>
+
+    </section>
+
+
+
+ <!-- ==========================================================================
+     REAL-TIME DEEP LEARNING MODEL TESTING INTERFACE
+     ========================================================================== -->
+<section id="realtime-test" class="content-section">
+    <div class="section-header">
+        <h2>Real-Time Model Testing Engine</h2>
+        <div class="accent-line"></div>
+    </div>
+
+    <div class="diagnostic-grid">
+        <!-- Left Panel: Video Feed Ingestion and Parameters -->
+        <div class="diagnostic-panel-card">
+            <h3 class="panel-title"><i class="fa-solid fa-file-video"></i> Clinical Asset Ingestion</h3>
+            <p class="table-text-muted" style="margin-bottom: 20px;">Upload patient video data and adjust baseline biometric parameters for multimodal evaluation.</p>
+
+            <form id="diagnosticForm" onsubmit="executeInferencePipeline(event)">
+                
+                <!-- Video Drag/Drop and Native Player Module -->
+                <div class="video-upload-dropzone" id="dropzoneWrapper">
+                    <input type="file" id="patientVideo" accept="video/mp4, video/x-m4v, video/*" required onchange="processIngestedVideo(event)">
+                    
+                    <!-- Idle Dropzone Instructions Layout -->
+                    <div class="dropzone-prompt" id="uploadPrompt">
+                        <i class="fa-solid fa-video-slash dropzone-icon"></i>
+                        <p>Drag & drop diagnostic video or <strong>Browse Storage</strong></p>
+                        <span class="file-format-limit">Supported codecs: H.264 / MP4 (Max 50MB)</span>
+                    </div>
+
+                    <!-- Dedicated Native Streaming Canvas Block -->
+                    <div class="video-preview-container" id="videoPreviewArea" style="display: none;">
+                        <video id="previewPlayer" controls muted playsinline></video>
+                        <div class="video-metadata-bar">
+                            <span id="videoFileName" class="file-name-tag">video.mp4</span>
+                            <button type="button" class="remove-video-btn" onclick="purgeVideoChannel()">
+                                <i class="fa-solid fa-trash-can"></i> Purge Video
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Neural Weight Biasing Clinical Sliders -->
+                <div class="parameter-sliders-group">
+                    <div class="slider-item">
+                        <div class="slider-meta">
+                            <label for="tremorFrequency">Resting Tremor Velocity (Hz)</label>
+                            <span id="tremorVal">0.0 Hz</span>
+                        </div>
+                        <input type="range" id="tremorFrequency" min="0" max="12" step="0.1" value="0" oninput="syncSliderBadge('tremorFrequency', 'tremorVal', ' Hz')">
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="slider-meta">
+                            <label for="gaitVelocity">Gait Velocity Degradation Index</label>
+                            <span id="gaitVal">0%</span>
+                        </div>
+                        <input type="range" id="gaitVelocity" min="0" max="100" step="1" value="0" oninput="syncSliderBadge('gaitVelocity', 'gaitVal', '%')">
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="slider-meta">
+                            <label for="socialResponsiveness">Social Responsiveness Metric (SRS-2)</label>
+                            <span id="srsVal">30 Score</span>
+                        </div>
+                        <input type="range" id="socialResponsiveness" min="30" max="150" step="1" value="30" oninput="syncSliderBadge('socialResponsiveness', 'srsVal', ' Score')">
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-diagnostic-btn" id="runEngineBtn">
+                    <i class="fa-solid fa-brain"></i> Compute Neural Inference
+                </button>
+            </form>
+        </div>
+
+        <!-- Right Panel: Real-time Convolutional Classification Matrix -->
+        <div class="diagnostic-panel-card output-panel">
+            <h3 class="panel-title"><i class="fa-solid fa-square-poll-vertical"></i> Multimodal Diagnostic Matrix</h3>
+            
+            <!-- Default Idle State -->
+            <div id="engineIdleState" class="engine-status-prompt">
+                <i class="fa-solid fa-network-wired idle-brain-icon"></i>
+                <p>Awaiting video asset link stream to register weights...</p>
+            </div>
+
+            <!-- Loading Tensor State -->
+            <div id="engineLoadingState" class="engine-status-prompt" style="display: none;">
+                <div class="radar-spinner"></div>
+                <p id="loadingStatusText" class="processing-text-highlight">Initializing Deep Learning layers...</p>
+            </div>
+
+            <!-- Diagnostic Classification Analysis Result State -->
+            <div id="engineResultsState" class="diagnostic-results-wrapper" style="display: none;">
+                <div class="main-classification-badge" id="primaryClassification">
+                    ANALYZING DATASET
+                </div>
+
+                <div class="metrics-breakdown-holder">
+                    <h4>Model Predictive Output:</h4>
+                    
+                    <!-- Parkinson Prediction Bar -->
+                    <div class="progress-metric-item">
+                        <div class="metric-labels"><span>Parkinson’s Disease (PD) Classifier Probability</span><span id="probPD">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill pd-color" id="fillPD" style="width: 0%;"></div></div>
+                    </div>
+
+                    <!-- Autism Prediction Bar -->
+                    <div class="progress-metric-item">
+                        <div class="metric-labels"><span>Autism Spectrum Disorder (ASD) Classifier Probability</span><span id="probASD">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill asd-color" id="fillASD" style="width: 0%;"></div></div>
+                    </div>
+
+                    <!-- Normal Prediction Bar -->
+                    <div class="progress-metric-item">
+                        <div class="metric-labels"><span>Normal Control (No Anomalies Detected)</span><span id="probNormal">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill normal-color" id="fillNormal" style="width: 0%;"></div></div>
+                    </div>
+                </div>
+
+                <div class="clinical-note-box">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span><strong>Research Engine Token:</strong> Model classifications are evaluated using cross-validated 3D-CNN and Spatial Temporal Graph Convolutional Networks (ST-GCN). Validate against clinical golden standards[cite: 2].</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ==========================================================================
+     RESEARCH NOTICE BOARD SECTION (TABLE LAYOUT)
+     ========================================================================== -->
+<section id="Notice" class="content-section">
+    <div class="section-header">
+        <h2>Official Notice Board</h2>
+        <div class="accent-line"></div>
+    </div>
+
+    <!-- Responsive Table Container -->
+    <div class="responsive-table-outer">
+        <table class="premium-data-table">
+            <thead>
+                <tr>
+                    <th style="width: 15%;">Date</th>
+                    <th style="width: 45%;">Notice Title & Description</th>
+                    <th style="width: 20%;">Type</th>
+                    <th style="width: 20%;">Action / View</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <!-- NOTICE 1: OFFICIAL CIRCULAR -->
+                <tr>
+                    <td><span class="date-badge">13 Jun 2026</span></td>
+                    <td>
+                        <strong>Project Circular: ICSETEP 2026</strong>
+                        <p class="table-text-muted">Official administrative rollout and platform registration guidelines.</p>
+                    </td>
+                    <td><span class="notice-tag tag-pdf"><i class="fa-solid fa-file-pdf"></i> PDF Document</span></td>
+                    <td>
+                        <a href="Circular_page.pdf" target="_blank" class="table-action-btn btn-view">
+                            <i class="fa-solid fa-eye"></i> View PDF
+                        </a>
+                    </td>
+                </tr>
+
+                <!-- NOTICE 2: ZOOM MEETING -->
+                <tr>
+                    <td><span class="date-badge">08 June 2026</span></td>
+                    <td>
+                        <strong>Call Zoom Meeting: Technical Sync</strong>
+                        <p class="table-text-muted">Reviewing multimodal deep learning system updates and MRI image pipelines.</p>
+                    </td>
+                    <td><span class="notice-tag tag-zoom"><i class="fa-solid fa-video"></i> Zoom Call</span></td>
+                    <td>
+                        <!-- Replace '#' with your actual Zoom Link -->
+                        <a href="#" target="_blank" class="table-action-btn btn-join">
+                            <i class="fa-solid fa-arrow-right-to-bracket"></i> Join Meeting
+                        </a>
+                    </td>
+                </tr>
+
+                <!-- NOTICE 3: PHYSICAL MEETING -->
+                <tr>
+                    <td><span class="date-badge">21 May 2026</span></td>
+                    <td>
+                        <strong>Physical Meeting: Clinical Review</strong>
+                        <p class="table-text-muted">On-site meeting at the Department of CSE to analyze movement video datasets.</p>
+                    </td>
+                    <td><span class="notice-tag tag-physical"><i class="fa-solid fa-users"></i> On-Site</span></td>
+                    <td>
+                        <!-- Replace 'Circular_page.jpg' or notice image file name here -->
+                        <a href="Circular_page.jpg" target="_blank" class="table-action-btn btn-image">
+                            <i class="fa-solid fa-image"></i> View Image
+                        </a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+
+    <!-- Premium Team Member Directory -->
+    <section id="team" class="content-section">
+        <div class="section-header">
+            <h2>Research Team Members</h2>
+            <div class="accent-line"></div>
+        </div>
+<div class="team-cards-directory">
+            
+            <div class="team-profile-card highlight-card">
+                <div class="profile-card-header">
+                    <div class="profile-avatar-wrapper">
+                        <img src="ekramul_hamid.jpg" alt="Dr. Md. Ekramul Hamid" class="profile-avatar">
+                    </div>
+                    <div class="profile-main-meta">
+                        <span class="role-badge pi">Principal Investigator</span>
+                        <h3>Dr. Md. Ekramul Hamid</h3>
+                        <p class="designation">Professor, Dept. of Computer Science & Engineering</p>
+                        <p class="institution">University of Rajshahi, Bangladesh</p>
+                    </div>
+                </div>
+                <div class="profile-contact-meta">
+                    <a href="mailto:ekram_hamid@ru.ac.bd" class="contact-link">
+                        <i class="fa-solid fa-envelope contact-icon"></i>ekram_hamid@ru.ac.bd
+                    </a>
+                    <span class="phone-item">
+                        <i class="fa-solid fa-phone contact-icon"></i>+880 1726-420004
+                    </span>
+                </div>
+            </div>
+
+
+<!-- Co-PI Card -->
+
+<div class="team-profile-card">
+                <div class="profile-card-header">
+                    <div class="profile-avatar-wrapper">
+                        <img src="sangeeta_biswas.jpg" alt="Dr. Sangeeta Biswas" class="profile-avatar">
+                    </div>
+                    <div class="profile-main-meta">
+                        <span class="role-badge co-pi">Co-Principal Investigator</span>
+                        <h3>Dr. Sangeeta Biswas</h3>
+                        <p class="designation">Associate Professor, Dept. of Computer Science & Engineering</p>
+                        <p class="institution">University of Rajshahi</p>
+                    </div>
+                </div>
+                <div class="profile-contact-meta">
+                    <a href="mailto:sangeeta.cse@ru.ac.bd" class="contact-link">
+                        <i class="fa-solid fa-envelope contact-icon"></i>sangeeta.cse@ru.ac.bd
+                    </a>
+                    <span class="phone-item">
+                        <i class="fa-solid fa-phone contact-icon"></i>+880 1868-111684
+                    </span>
+                </div>
+            </div>
+
+
+
+<!-- Strategist Card -->
+  
+ <div class="team-profile-card">
+                <div class="profile-card-header">
+                    <div class="profile-avatar-wrapper">
+                        <img src="musa_miah.jpg" alt="Dr. Abu Saleh Musa Miah" class="profile-avatar">
+                    </div>
+                    <div class="profile-main-meta">
+                        <span class="role-badge specialist">Project Strategist</span>
+                        <h3>Dr. Abu Saleh Musa Miah</h3>
+                        <p class="designation">Lecturer, Dept. of Computer Science & Engineering</p>
+                        <p class="institution">University of Rajshahi</p>
+                    </div>
+                </div>
+                <div class="profile-contact-meta">
+                    <a href="mailto:musa.cse@ru.ac.bd" class="contact-link">
+                        <i class="fa-solid fa-envelope contact-icon"></i>musa.cse@ru.ac.bd
+                    </a>
+                    <span class="phone-item">
+                        <i class="fa-solid fa-phone contact-icon"></i>+880 1734-264899
+                    </span>
+                </div>
+            </div>   
+
+<!-- Consultant Card -->
+       
+<div class="team-profile-card">
+                <div class="profile-card-header">
+                    <div class="profile-avatar-wrapper">
+                        <img src="fazlul_kabir.jpg" alt="Dr. Md. Fazlul Kabir" class="profile-avatar">
+                    </div>
+                    <div class="profile-main-meta">
+                        <span class="role-badge consultant">Clinical Consultant</span>
+                        <h3>Dr. Md. Fazlul Kabir (Pavel)</h3>
+                        <p class="designation">Neuromedicine Specialist</p>
+                        <p class="qualifications">MBBS, BCS (Health), MD (Neuromedicine), CCD (BIRDEM), MPH, FCPS (Final Part), MPhil (IBSc)</p>
+                    </div>
+                </div>
+                <div class="profile-contact-meta">
+                      <a href="mailto:dr.pavel@gmail.com" class="contact-link">
+                        <i class="fa-solid fa-envelope contact-icon"></i>dr.pavel@gmail.com
+                    </a>
+                    <span class="phone-item">
+                        <i class="fa-solid fa-phone contact-icon"></i>+880 1712-836989
+                    </span>
+                </div>
+            </div>
+
+<!-- RA 1 -->
+<div class="team-profile-card assistant">
+                <div class="profile-card-header">
+                    <div class="profile-avatar-wrapper">
+                        <img src="subrata_paul.jpg" alt="Subrata Kumer Paul" class="profile-avatar">
+                    </div>
+                    <div class="profile-main-meta">
+                        <span class="role-badge ra">Research Assistant</span>
+                        <h3>Subrata Kumer Paul</h3>
+                        <p class="designation">PhD Fellow, Dept. of Computer Science & Engineering</p>
+                        <p class="institution">University of Rajshahi</p>
+                    </div>
+                    <div>Assistant Professor, Dept. of CSE, BAUET</div>
+                </div>
+                <div class="profile-contact-meta">
+                    <a href="mailto:sksubrata96@gmail.com" class="contact-link">
+                        <i class="fa-solid fa-envelope contact-icon"></i>sksubrata96@gmail.com
+                    </a>
+                    <span class="phone-item">
+                        <i class="fa-solid fa-phone contact-icon"></i>+880 1738-061325
+                    </span>
+                </div>
+            </div>
+
+
+<!-- RA 2 -->
+            <div class="team-profile-card assistant">
+                <div class="profile-card-header">
+                    <div class="profile-avatar-wrapper">
+                        <!-- Replace 'bipul_islam.jpg' with your actual image file name -->
+                        <img src="bipul_islam.jpg" alt="Md. Bipul Islam" class="profile-avatar">
+                    </div>
+                    <div class="profile-main-meta">
+                        <span class="role-badge ra">Research Assistant</span>
+                        <h3>Md. Bipul Islam</h3>
+                        <p class="designation">Master’s Student, Dept. of Computer Science & Engineering</p>
+                        <p class="institution">University of Rajshahi</p>
+                    </div>
+                </div>
+                <div class="profile-contact-meta">
+                    <a href="mailto:s1810677126@gmail.com" class="contact-link">s1810677126@gmail.com</a>
+                    <span class="phone-item">Mobile: +880 15765-36139</span>
+                </div>
+            </div>
+
+
+            <!-- RA 3 -->
+<div class="team-profile-card assistant">
+                <div class="profile-card-header">
+                    <div class="profile-avatar-wrapper">
+                        <img src="shoaib_khan.jpg" alt="Md. Shoaib Abdullah Khan" class="profile-avatar">
+                    </div>
+                    <div class="profile-main-meta">
+                        <span class="role-badge ra">Research Assistant</span>
+                        <h3>Md. Shoaib Abdullah Khan</h3>
+                        <p class="designation">Master’s Student, Dept. of Computer Science & Engineering</p>
+                        <p class="institution">University of Rajshahi</p>
+                    </div>
+                </div>
+                <div class="profile-contact-meta">
+                    <a href="mailto:mdshoaib.a.khan@gmail.com" class="contact-link">
+                        <i class="fa-solid fa-envelope contact-icon"></i>mdshoaib.a.khan@gmail.com
+                    </a>
+                    <span class="phone-item">
+                        <i class="fa-solid fa-phone contact-icon"></i>+880 1303-608379
+                    </span>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Communication Hub & Contact -->
+    <section id="contact" class="content-section alternate-bg">
+        <div class="section-header">
+            <h2>Connect With Our Office</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="contact-panel-hub">
+            <div class="office-card">
+                <h3>Primary Secretariat</h3>
+                <div class="contact-detail-line">
+                    <strong>Office Location:</strong> Room No: 121, Fourth Science Building, Department of Computer Science & Engineering, University of Rajshahi, Rajshahi - 6205, Bangladesh.
+                </div>
+                <div class="contact-detail-line">
+                    <strong>Primary Contact:</strong> Dr. Md. Ekramul Hamid (Project Principal Investigator)
+                </div>
+                <div class="contact-action-row">
+                    <a href="mailto:ekram_hamid@ru.ac.bd" class="cta-button primary-cta">Send Digital Inquiry</a>
+                    <a href="tel:+8801726420004" class="cta-button secondary-cta">Call Project Office</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Site Footer Footer -->
+    <footer class="premium-footer">
+        <div class="footer-bottom-container">
+            <p class="copyright-notice">&copy; 2026 ICSETEP Platform Consortium. All Academic & Engineering Rights Reserved.</p>
+            <p class="design-attribution">Designed by <span><a href="https://bauet.ac.bd/cse/employees/subrata-kumer-paul/">Subrata Kumer Paul</a></span></p>
+        </div>
+    </footer>
+
+    <!-- Simple Mobile Menu Toggle Script -->
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.main-navigation ul').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
